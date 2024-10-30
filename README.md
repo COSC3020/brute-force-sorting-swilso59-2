@@ -32,7 +32,7 @@ The best case input for this implementation would be if the array was already so
 
 The worst case input for this implementation would be if the array was in decending order. This would cause the the would cause the sorted permutation to be the last one generated and checked. This would still not effect the overall time complexity.
 
-If we genereated permutations randomly and didn't use memory to store all the permutations. We would need to check if each current permutation is sorted, This means that if we randomly genereated the sorted permutation on the first try we would terminate the permutationSort. This would give use a best case time complexity of $O(n)$. The worst case time complexity would be expected to be $O(n!)$, Although if we were to take random permutations this could lead to a time complexity of $O(\infty)$, if it were to randomly never generate the sorted permutation. 
+If we genereated permutations randomly and didn't use memory to store all the permutations. We would need to check if each current permutation is sorted, This means that if we randomly genereated the sorted permutation on the first try we would terminate the permutationSort. This would give use a best case time complexity of $O(n)$. The worst case time complexity would be expected to be $O(n*n!)$, Although if we were to take random permutations this could lead to a time complexity of $O(\infty)$, if it were to randomly never generate the sorted permutation. 
 
 ## Plagiarism Acknowledgement
 
